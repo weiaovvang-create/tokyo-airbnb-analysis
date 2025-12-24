@@ -1,3 +1,9 @@
+## Interactive Map
+
+An interactive heatmap of Airbnb listings in Tokyo is available here:
+
+https://weiaovvang-create.github.io/tokyo-airbnb-analysis/tokyo_airbnb_heatmap.html
+
 # Tokyo Airbnb Data Analysis
 
 This project analyzes pricing patterns, room types, host behavior, and geographic distribution of Airbnb listings in Tokyo.  
