@@ -134,6 +134,7 @@ The original Airbnb listings dataset (~69MB) is excluded from version control
 and not included in this repository.
 
 The notebook assumes the dataset is available locally at `data/listings.csv`.
+
 ---
 
 ## Notes
