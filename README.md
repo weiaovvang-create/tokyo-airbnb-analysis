@@ -29,6 +29,10 @@ The project focuses on exploratory data analysis (EDA) and visualization, emphas
 - **Content:** Listing-level data including price, room type, host ID, neighborhood, and geographic coordinates
 - **Format:** CSV
 
+The original dataset (~69MB) is excluded from version control and not included in this repository.
+
+The notebook assumes the dataset is available locally at `data/listings.csv`.
+
 ---
 
 ## Data Cleaning & Preprocessing
@@ -112,7 +116,7 @@ jupyter notebook airbnb_eda.ipynb
 
 The interactive heatmap can also be opened directly via:
 ```text
-outputs/tokyo_airbnb_heatmap.html
+tokyo_airbnb_heatmap.html
 ```
 
 ---
@@ -126,15 +130,6 @@ tokyo-airbnb-analysis/
 │   └── airbnb_eda.ipynb
 └── tokyo_airbnb_heatmap.html
 ```
----
-
-## Data
-
-The original Airbnb listings dataset (~69MB) is excluded from version control
-and not included in this repository.
-
-The notebook assumes the dataset is available locally at `data/listings.csv`.
-
 ---
 
 ## Notes
