@@ -120,17 +120,20 @@ outputs/tokyo_airbnb_heatmap.html
 ## Project Structure
 ```text
 tokyo-airbnb-analysis/
-│
 ├── README.md
-├── data/
-│   └── listings.csv
-│
+├── .gitignore
 ├── notebooks/
 │   └── airbnb_eda.ipynb
-│
-└── outputs/
-    └── tokyo_airbnb_heatmap.html
+└── tokyo_airbnb_heatmap.html
 ```
+---
+
+## Data
+
+The original Airbnb listings dataset (~69MB) is excluded from version control
+and not included in this repository.
+
+The notebook assumes the dataset is available locally at `data/listings.csv`.
 ---
 
 ## Notes
